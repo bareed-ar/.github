@@ -3,7 +3,7 @@
 Arabic‑first email, rebuilt for trust.  
 بريد عربي‑أولاً… مُعاد بناؤه لاستعادة الثقة.
 
-**Main website**: [bareed-email-platform.vercel.app/ar](https://bareed-email-platform.vercel.app/ar) — explore the full project details.
+**Main website**: [bareed-email-platform.vercel.app/ar](https://bareed-email-platform.vercel.app/en) — explore the full project details.
 
 ---
 
@@ -71,5 +71,5 @@ Because email is still the backbone of identity and business—yet trust is brok
 ### Contact
 
 - **Email**: <bareed@taher.ai>
-- **Website**: [bareed-email-platform.vercel.app/ar](https://bareed-email-platform.vercel.app/ar)
+- **Website**: [bareed-email-platform.vercel.app/ar](https://bareed-email-platform.vercel.app/en)
 - **Base**: MENA • fully remote
