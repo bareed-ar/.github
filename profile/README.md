@@ -1,97 +1,70 @@
-[AR] عن بريد
+# Bareed — بريد
 
-من نحن
-بريد هو فريق من المصممين والمطورين والحالمين من أنحاء العالم العربي، سئموا من منصات بريد لا تفهم لغتنا ولا ثقافتنا. نبني منصة البريد الإلكتروني التي طالما أردناها—عربية أولاً، تحترم الخصوصية، وتجربة جميلة بلا تنازلات.
+Arabic‑first email, rebuilt for trust.  
+بريد عربي‑أولاً… مُعاد بناؤه لاستعادة الثقة.
 
-تأسسنا في 2025 مدفوعين برؤية السيادة الرقمية والاحترام الثقافي. نؤمن أن كل متحدث بالعربية يستحق أدوات تحتفي بلغته وتراثه.
+---
 
-القيم
-• الابتكار: ندفع الحدود ونكسر الأعراف لتجارب رائدة.
-• المجتمع: مبني من قبل العالم العربي، للعالم العربي. ملاحظاتكم تشكّل خارطة طريقنا.
-• التميز: كل التفاصيل مهمة. مهووسون بالجودة لتقديم تجارب استثنائية.
+<!-- markdownlint-disable MD033 -->
+<div dir="rtl">
 
-رحلتنا
-• الربع الثالث 2025 — الأساس والتمويل: اكتشاف، محادثات تمويل أولي، رسم حزمة تقنية عربية-أولاً.
-• الربع الرابع 2025 — المعمارية والنموذج الأولي: تثبيت المعمارية الأساسية، نماذج تفاعلية، تحقق مبكر مع متبنين في المنطقة.
-• الربع الأول 2026 — البنية التحتية والأمان: خطوط تسليم، مصادقة وتشفير مشدد، قياسات للألفا.
-• الربع الثاني 2026 — البناء الأساسي وألفا داخلية: أول بناء متكامل، دمج عميل الويب، بدء استخدام داخلي.
+## [AR] بريد
 
-تواصل
-أسئلة؟ ملاحظات؟ فرص شراكة؟
-البريد: bareed@taher.ai
-المقر: الشرق الأوسط وشمال أفريقيا • فريق يعمل عن بعد
+**بريد** ليس خدمة بريد عادية. نحن نعيد بناء البريد من جذوره—بمقاييس 2025، وبمنطق يحترم الإنسان العربي: وضوح، هدوء، وصول، وخصوصية حقيقية.
 
-[AR] خارطة الطريق
+### لماذا؟
 
-المرحلة الحالية
-المرحلة 1: الأساس (Q3 2025 – Q1 2026) — قيد التنفيذ
-• تأمين التمويل الأولي
-• تجميع فريق الهندسة الأساسي
-• وضع البنية التقنية النهائية
-• إعداد البنية التحتية للتطوير
+لأن البريد في عالمنا العربي “يعمل”… لكنه لا يُوثق: رسائل لا تصل، سمعة نطاقات هشّة، وإعدادات هوية معقّدة، وتجربة RTL “مقلوبة” بدل أن تكون أصيلة.
 
-المرحلة 2: التطوير الأساسي (Q2–Q3 2026)
-• بوابة إرسال SMTP (Go)
-• توقيع DKIM/ARC (Rust)
-• طبقة التشفير
-• عميل ويب أساسي (TypeScript/Next.js)
+### ما الذي نبنيه؟
 
-المرحلة 3: الإصدار التجريبي ألفا (Q4 2026 – Q1 2027)
-• تصفية الرسائل المزعجة/الفيروسات (Python ML)
-• خادم IMAP/POP3
-• واجهة متجاوبة للجوال
-• اختبار تجريبي داخلي
+- **وصول (Deliverability) منضبط**: إدارة سمعة، إحماء تدريجي، وإعداد SPF/DKIM/DMARC بطريقة صحيحة.
+- **خصوصية بالتصميم**: أقل قدر ممكن من البيانات، تشفير جوهري، بدون تتبع أو بيع بيانات.
+- **تجربة عربية أصلية**: RTL حقيقي، خط عربي أصيل، وبحث/فهرسة يفهم العربية بدل أن يتعثر بها.
+- **تحديث للبروتوكولات**: توافق SMTP/IMAP مع واجهات حديثة وAPI‑first لتجربة أسرع وأنظف.
+- **هدوء بلا ضجيج**: إشعارات تحترم يومك، وتنظيم يقرّب الرسالة من الإنجاز بدل الفوضى.
 
-المرحلة 4: الإطلاق التجريبي والعام (Q2–Q3 2027)
-• إصدار تجريبي لقائمة الانتظار
-• تحسين الأداء
-• ميزات متقدمة
-• الإطلاق العام[EN] About Bareed
+### خارطة الطريق (مختصر)
 
-Who we are
-Bareed is a team of designers, engineers, and dreamers from across the Arab world, tired of email platforms that don’t understand us. We’re building the email platform we always wanted—Arabic‑first, privacy‑respecting, and beautifully crafted without compromise.
+- **المرحلة 1 — الأساس (Q3 2025 – Q1 2026)**: التمويل، الفريق، تثبيت المعمارية، وتجهيز بنية التطوير.
+- **المرحلة 2 — التطوير الأساسي (Q2–Q3 2026)**: SMTP (Go) • توقيع DKIM/ARC (Rust) • طبقة التشفير • عميل ويب (TypeScript/Next.js)
+- **المرحلة 3 — ألفا (Q4 2026 – Q1 2027)**: تصفية Spam/Virus (Python ML) • IMAP/POP3 • واجهة متجاوبة • اختبار داخلي
+- **المرحلة 4 — Beta & GA (Q2–Q3 2027)**: بيتا عامة • تحسين الأداء • ميزات متقدمة • الإطلاق العام
 
-Founded in 2025, driven by digital sovereignty and cultural respect. We believe every Arabic speaker deserves tools that honor their language and heritage.
+### تواصل
 
-Values
-• Innovation: Push boundaries and defy conventions to deliver pioneering experiences.
-• Community: Built by the Arab world, for the Arab world. Your feedback shapes our roadmap.
-• Excellence: Details matter. We obsess over quality to deliver exceptional experiences.
+- **البريد**: <bareed@taher.ai>
+- **النطاق**: الشرق الأوسط وشمال أفريقيا • فريق يعمل عن بعد
 
-Our journey
-• Q3 2025 — Foundations & Funding: Discovery, seed conversations, Arabic‑first tech stack design.
-• Q4 2025 — Architecture & Prototype: Core architecture stabilized, interactive prototypes, early validation with regional adopters.
-• Q1 2026 — Infrastructure & Security: Delivery pipelines, hardened auth & encryption, instrumentation for alpha.
-• Q2 2026 — Core Build & Internal Alpha: First integrated build, web client integration, internal alpha usage.
+</div>
+<!-- markdownlint-enable MD033 -->
 
-Contact
-Questions? Feedback? Partnerships?
-Email: bareed@taher.ai
-Base: MENA • Fully remote team
+---
 
-[EN] Roadmap
+## [EN] Bareed
 
-Current phase
-Phase 1: Foundations (Q3 2025 – Q1 2026) — In progress
-• Secure seed funding
-• Assemble core engineering team
-• Finalize technical architecture
-• Set up development infrastructure
+**Bareed** isn’t “another email provider.” We’re rebuilding email from first principles—Arabic‑first, privacy‑by‑design, and deliverability‑first, with a calm, modern experience.
 
-Phase 2: Core Development (Q2–Q3 2026)
-• SMTP send gateway (Go)
-• DKIM/ARC signing (Rust)
-• Encryption layer
-• Core web client (TypeScript/Next.js)
+### Why?
 
-Phase 3: Alpha Release (Q4 2026 – Q1 2027)
-• Spam/virus filtering (Python ML)
-• IMAP/POP3 server
-• Responsive mobile UI
-• Internal pilot testing
+Because email is still the backbone of identity and business—yet trust is broken: messages land in spam, domain reputation is fragile, and Arabic UX is treated as an afterthought.
 
-Phase 4: Beta & GA (Q2–Q3 2027)
-• Public beta for waitlist
-• Performance improvements
-• Advanced features
-• General availability
+### What we’re building
+
+- **Deliverability, done right**: reputation, warm‑up, and correct SPF/DKIM/DMARC by default.
+- **Privacy by design**: minimal data collection, encryption as a foundation, no tracking or data selling.
+- **Native Arabic experience**: true RTL, authentic Arabic typography, and search/indexing built for Arabic.
+- **Modern protocols**: SMTP/IMAP compatibility with an API‑first, faster, cleaner architecture.
+- **Calm by default**: less noise, better focus, and organization that serves real work.
+
+### Roadmap (short)
+
+- **Phase 1 — Foundations (Q3 2025 – Q1 2026)**: funding, core team, architecture, dev infrastructure.
+- **Phase 2 — Core Development (Q2–Q3 2026)**: SMTP gateway (Go) • DKIM/ARC signing (Rust) • encryption layer • web client (TypeScript/Next.js)
+- **Phase 3 — Alpha (Q4 2026 – Q1 2027)**: spam/virus filtering (Python ML) • IMAP/POP3 • responsive UI • internal pilot
+- **Phase 4 — Beta & GA (Q2–Q3 2027)**: public beta • performance • advanced features • general availability
+
+### Contact
+
+- **Email**: <bareed@taher.ai>
+- **Base**: MENA • fully remote
